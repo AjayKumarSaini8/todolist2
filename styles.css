@@ -1,0 +1,70 @@
+body {
+  background-color: #a55858; /* Updated yellow background color */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0; /* Remove default margin for the body */
+}
+
+h1 {
+  color: #333; /* Darken the color for better readability */
+}
+
+#new-todo-container {
+  color: #0000c7; /* Dark blue text color */
+  margin: 20px;
+  padding: 20px;
+  background-color: #99bdbd;
+  border-radius: 10px;
+}
+
+/* Updated style for the Remove button */
+.Todo-container button {
+  background-color: #ff6347; /* Tomato background color */
+  color: #fff; /* White text color */
+  padding: 5px 10px;
+  margin-left: auto; /* Move the button to the right */
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Todo-container button:hover {
+  background-color: #dc143c;
+}
+
+#add-todo,
+#dueDate {
+  background-color: #87ceeb;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 70%;
+  border: none;
+}
+
+#submit {
+  background-color: rgb(46, 41, 41); /* Black background color */
+  color: #7fffd4; /* Aquamarine text color */
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.Todo-container {
+  padding: 10px;
+  margin: 20px;
+  background-color: #9494a8;
+  border-radius: 10px;
+}
+
+.Todo-container div {
+  margin: 10px 0;
+  padding: auto;
+  background-color: #c2ab8c;
+  border-radius: 5px;
+  border-bottom: 2px solid #000000;
+}
